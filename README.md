@@ -1,13 +1,23 @@
-# equiv_verification
+#EquivVerification
 
-## GitHub configuration
+Lean 4 formalization of deterministic semantic equivalence
+for Functor-style AI model architectures.
 
-To set up your new GitHub repository, follow these steps:
+Files
 
-* Under your repository name, click **Settings**.
-* In the **Actions** section of the sidebar, click "General".
-* Check the box **Allow GitHub Actions to create and approve pull requests**.
-* Click the **Pages** section of the settings sidebar.
-* In the **Source** dropdown menu, select "GitHub Actions".
+Basic.lean
+Core type definitions.
 
-After following the steps above, you can remove this section from the README file.
+Equiv.lean
+Stateless observational equivalence and quotient model.
+
+Stateful.lean
+Deterministic trace semantics and stateful equivalence.
+
+WeightFunction.lean
+Weight function abstraction used by the model architecture.
+
+Build
+
+lake build
+

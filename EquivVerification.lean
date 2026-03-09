@@ -1,3 +1,4 @@
-import EquivVerification.Basic
 import EquivVerification.Equiv
-import EquivVerification.WeightFunction
+import EquivVerification.Stateful
+
+
