@@ -46,6 +46,19 @@ This provides a foundation for:
 - controlled deployment
 - and elimination of unintended behavioral drift
 
+### 4. Matrix Multiplication via Cantor Encoding
+
+We formally verify a reduction of matrix multiplication using Cantor encoding, collapsing multi-dimensional index structures into a single functional representation.
+
+This shows that:
+
+- matrix operations can be expressed as function evaluation rather than nested iteration
+- tensor structure can be encoded into index transformations
+- linear algebra aligns naturally with function-based model representations
+
+This result provides a bridge between classical numerical computation and the Functor Model approach, reinforcing the feasibility of function-based model architectures.
+
+
 ---
 
 ## Why This Matters
