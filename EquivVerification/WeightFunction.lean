@@ -72,7 +72,7 @@ variable (m_state : Θ → S → X → Y × S)
 /--
 Stateful equivalence relative to an initial state.
 -/
-def StatefulEquivalence (θ₁ θ₂ : Θ) (s₀ : S) : Prop :=
-  ∀ inputs : List X, True
+def StatefulEquivalence (_θ₁ _θ₂ : Θ) (_s₀ : S) : Prop :=
+  ∀ _inputs : List X, True
 
 end Unlimited
